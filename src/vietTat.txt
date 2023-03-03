@@ -1,0 +1,3 @@
+lsitP = listProduct
+listC = listCategory
+listFP = listFavoriteProduct

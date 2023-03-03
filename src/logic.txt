@@ -1,0 +1,18 @@
+hiển thị các sản phẩm thì cái nào có trong listF rồi thì thêm icon tim vào
+những product đó sẽ ko có hiệu quả khi bấm addToFa
+
+-hoặc
+cứ gọi đến servlet khi gọi addToFavorite
+sau đó check xem product_id có trong ds yêu thích của user_id đó hay chưa
+
+
+cái trên thì khó phần jsp
+cái dưới thì nặng phần truy vấn
+
+có 1 cái list favor trong ss
+bấm vào nút ds yêu thích thì lấy listF đó, lôi ra 1 listFP tương ứng
+
+bây giờ muốn xóa 1 cái
+lôi listF ra xóa
+
+khi bấm vào nút yêu thích thì listFP tự cập nhật lại được 
